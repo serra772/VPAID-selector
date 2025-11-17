@@ -41,7 +41,7 @@
 
                         <!-- VPAID MediaFile -->
                         <MediaFiles>
-                            <MediaFile delivery="progressive" type="application/javascript" width="640" height="480" apiFramework="VPAID">
+                            <MediaFile delivery="progressive" type="application/javascript" width="1280" height="720" apiFramework="VPAID">
                                 <![CDATA[https://serra772.github.io/VPAID-selector/vpaid.js]]>
                             </MediaFile>
                         </MediaFiles>
