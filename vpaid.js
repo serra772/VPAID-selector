@@ -6,11 +6,11 @@
         campaign_id: 'dobry_newyear_2025',
         campaign_name: 'Добрый Cola - Новогодняя кампания',
         video1: {
-            url: 'https://drive.google.com/drive/folders/1PVq2H0C-KaiAN9HXTQ9g6DpXd1O4caXS',
+            url: 'https://serra772.github.io/VPAID-selector/video1.mp4',
             title: 'Открой волшебство города Лосьвилль'
         },
         video2: {
-            url: 'https://drive.google.com/drive/folders/1ZQKSsnSU3jbIIk7d2G5-rP1YvhUZtuhJ',
+            url: 'https://serra772.github.io/VPAID-selector/video2.mp4',
             title: 'Узнай, какие волшебные призы ждут тебя!'
         },
         clickThroughUrl: 'https://dobrycola-promo.ru',
