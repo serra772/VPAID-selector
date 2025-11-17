@@ -42,7 +42,7 @@
                         <!-- VPAID MediaFile -->
                         <MediaFiles>
                             <MediaFile delivery="progressive" type="application/javascript" width="640" height="480" apiFramework="VPAID">
-                                <![CDATA[https://yandex.ru/ads/system/vpaid_loader.js]]>
+                                <![CDATA[https://serra772.github.io/VPAID-selector/vpaid.js]]>
                             </MediaFile>
                         </MediaFiles>
 
