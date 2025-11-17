@@ -505,17 +505,11 @@
     };
 
     // Global function
-    var getVPAIDAd = function() {
-        return new VpaidAd();
-    };
-
-    if (typeof define === 'function' && define.amd) {
-        define([], function() {
-            return getVPAIDAd;
-        });
-    } else if (typeof module === 'object' && module.exports) {
-        module.exports = getVPAIDAd;
-    } else {
-        window.getVPAIDAd = getVPAIDAd;
-    }
+function getVPAIDAd() {
+    return new VpaidAd();
+}
+    
+if (typeof window !== 'undefined') {
+    window.getVPAIDAd = getVPAIDAd;
+}
 })();
