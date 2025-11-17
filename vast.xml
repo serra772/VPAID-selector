@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd">
+    <Ad id="dobry_vpaid">
+        <InLine>
+            <AdSystem>Solta</AdSystem>
+            <AdTitle>Добрый Cola - Новогодняя кампания 2025</AdTitle>
+            <Description>Interactive VPAID ad with video selection - Dobry Cola New Year Campaign</Description>
+
+            <!-- Impression tracking -->
+            <Impression><![CDATA[https://your-tracking-domain.com/impression?campaign_id=dobriy_newyear_2025&timestamp=[TIMESTAMP]]]></Impression>
+
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <Duration>00:00:30</Duration>
+
+                        <!-- Base Tracking Events -->
+                        <TrackingEvents>
+                            <!-- Базовые события видео -->
+                            <Tracking event="start"><![CDATA[https://your-tracking-domain.com/event/start?campaign_id=dobriy_newyear_2025&timestamp=[TIMESTAMP]]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[https://your-tracking-domain.com/event/firstQuartile?campaign_id=dobriy_newyear_2025&timestamp=[TIMESTAMP]]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[https://your-tracking-domain.com/event/midpoint?campaign_id=dobriy_newyear_2025&timestamp=[TIMESTAMP]]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[https://your-tracking-domain.com/event/thirdQuartile?campaign_id=dobriy_newyear_2025&timestamp=[TIMESTAMP]]]></Tracking>
+                            <Tracking event="complete"><![CDATA[https://your-tracking-domain.com/event/complete?campaign_id=dobriy_newyear_2025&timestamp=[TIMESTAMP]]]></Tracking>
+
+                            <!-- События взаимодействия -->
+                            <Tracking event="mute"><![CDATA[https://your-tracking-domain.com/event/mute?campaign_id=dobriy_newyear_2025&timestamp=[TIMESTAMP]]]></Tracking>
+                            <Tracking event="unmute"><![CDATA[https://your-tracking-domain.com/event/unmute?campaign_id=dobriy_newyear_2025&timestamp=[TIMESTAMP]]]></Tracking>
+                            <Tracking event="pause"><![CDATA[https://your-tracking-domain.com/event/pause?campaign_id=dobriy_newyear_2025&timestamp=[TIMESTAMP]]]></Tracking>
+                            <Tracking event="resume"><![CDATA[https://your-tracking-domain.com/event/resume?campaign_id=dobriy_newyear_2025&timestamp=[TIMESTAMP]]]></Tracking>
+                            <Tracking event="fullscreen"><![CDATA[https://your-tracking-domain.com/event/fullscreen?campaign_id=dobriy_newyear_2025&timestamp=[TIMESTAMP]]]></Tracking>
+                            <Tracking event="exitFullscreen"><![CDATA[https://your-tracking-domain.com/event/exitFullscreen?campaign_id=dobriy_newyear_2025&timestamp=[TIMESTAMP]]]></Tracking>
+                            <Tracking event="skip"><![CDATA[https://your-tracking-domain.com/event/skip?campaign_id=dobriy_newyear_2025&timestamp=[TIMESTAMP]]]></Tracking>
+                        </TrackingEvents>
+
+                        <!-- Click Tracking -->
+                        <VideoClicks>
+                            <ClickThrough><![CDATA[https://dobrycola-promo.ru?utm_source=solta&utm_campaign=newyear2025]]></ClickThrough>
+                            <ClickTracking><![CDATA[https://your-tracking-domain.com/click?campaign_id=dobriy_newyear_2025&timestamp=[TIMESTAMP]]]></ClickTracking>
+                        </VideoClicks>
+
+                        <!-- VPAID MediaFile -->
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" type="application/javascript" width="640" height="480" apiFramework="VPAID">
+                                <![CDATA[https://yandex.ru/ads/system/vpaid_loader.js]]>
+                            </MediaFile>
+                        </MediaFiles>
+
+                        <!-- Ad Parameters with custom tracking URLs -->
+                        <AdParameters>
+                            <![CDATA[
+                            {
+                                "tracking": {
+                                    "impression": [
+                                        "https://your-tracking-domain.com/custom/impression?campaign_id=dobriy_newyear_2025&event=base_impression",
+                                        "https://your-tracking-domain.com/custom/impression?campaign_id=dobriy_newyear_2025&event=creative_view"
+                                    ],
+                                    "click": [
+                                        "https://your-tracking-domain.com/custom/click?campaign_id=dobriy_newyear_2025&event=click_through"
+                                    ],
+                                    "promoActivation": [
+                                        "https://your-tracking-domain.com/custom/promo?campaign_id=dobriy_newyear_2025&event=activation"
+                                    ],
+                                    "videoSelected_video1": [
+                                        "https://your-tracking-domain.com/custom/selection?campaign_id=dobriy_newyear_2025&video=1&event=selected"
+                                    ],
+                                    "videoSelected_video2": [
+                                        "https://your-tracking-domain.com/custom/selection?campaign_id=dobriy_newyear_2025&video=2&event=selected"
+                                    ],
+                                    "elementClick_video1": [
+                                        "https://your-tracking-domain.com/custom/element?campaign_id=dobriy_newyear_2025&element=video1&event=click"
+                                    ],
+                                    "elementClick_video2": [
+                                        "https://your-tracking-domain.com/custom/element?campaign_id=dobriy_newyear_2025&element=video2&event=click"
+                                    ],
+                                    "videoView_video1_25": [
+                                        "https://your-tracking-domain.com/custom/view?campaign_id=dobriy_newyear_2025&video=1&quartile=25"
+                                    ],
+                                    "videoView_video1_50": [
+                                        "https://your-tracking-domain.com/custom/view?campaign_id=dobriy_newyear_2025&video=1&quartile=50"
+                                    ],
+                                    "videoView_video1_75": [
+                                        "https://your-tracking-domain.com/custom/view?campaign_id=dobriy_newyear_2025&video=1&quartile=75"
+                                    ],
+                                    "videoView_video1_100": [
+                                        "https://your-tracking-domain.com/custom/view?campaign_id=dobriy_newyear_2025&video=1&quartile=100"
+                                    ],
+                                    "videoView_video2_25": [
+                                        "https://your-tracking-domain.com/custom/view?campaign_id=dobriy_newyear_2025&video=2&quartile=25"
+                                    ],
+                                    "videoView_video2_50": [
+                                        "https://your-tracking-domain.com/custom/view?campaign_id=dobriy_newyear_2025&video=2&quartile=50"
+                                    ],
+                                    "videoView_video2_75": [
+                                        "https://your-tracking-domain.com/custom/view?campaign_id=dobriy_newyear_2025&video=2&quartile=75"
+                                    ],
+                                    "videoView_video2_100": [
+                                        "https://your-tracking-domain.com/custom/view?campaign_id=dobriy_newyear_2025&video=2&quartile=100"
+                                    ]
+                                },
+                                "config": {
+                                    "campaign_id": "dobry_newyear_2025",
+                                    "campaign_name": "Добрый Cola - Новогодняя кампания",
+                                    "autoplay_delay": 10000
+                                }
+                            }
+                            ]]>
+                        </AdParameters>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
