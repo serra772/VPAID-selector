@@ -79,7 +79,7 @@
                 Update the CDATA below to point to the hosted location of your vpaid.js file.
               -->
               <MediaFile delivery="progressive" type="application/javascript" width="1280" height="720" apiFramework="VPAID">
-                <![CDATA[vpaid.js]]>
+                <![CDATA[https://serra772.github.io/VPAID-selector/vpaid.js]]>
               </MediaFile>
             </MediaFiles>
 
@@ -95,18 +95,18 @@
             <AdParameters>
               <![CDATA[
                 {
-                  "staticImageUrl": "background.png",
+                  "staticImageUrl": "https://serra772.github.io/VPAID-selector/background.png",
                   "autoStartTimeoutMs": 10000,
                   "videoOptions": [
                     {
                       "id": "video1",
-                      "videoUrl": "video1.mp4",
-                      "clickThroughUrl": "[INSERT_VIDEO_1_CLICK_THROUGH_URL_HERE]"
+                      "videoUrl": "https://serra772.github.io/VPAID-selector/video1.mp4",
+                      "clickThroughUrl": "https://dobrycola-promo.ru"
                     },
                     {
                       "id": "video2",
-                      "videoUrl": "video2.mp4",
-                      "clickThroughUrl": "[INSERT_VIDEO_2_CLICK_THROUGH_URL_HERE]"
+                      "videoUrl": "https://serra772.github.io/VPAID-selector/video2.mp4",
+                      "clickThroughUrl": "https://dobrycola-promo.ru"
                     }
                   ],
                   "customPixelBaseUrl": "[INSERT_CUSTOM_PIXEL_BASE_URL_HERE]",
