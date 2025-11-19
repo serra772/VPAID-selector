@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>VPAID Selector Test</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #333;
+            font-family: sans-serif;
+        }
+
+        #ad-container {
+            width: 1280px;
+            height: 720px;
+            position: relative;
+            margin: 0 auto;
+            background: #000;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        #video-slot {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: none;
+            object-fit: cover;
+            z-index: 1;
+        }
+
+        #slot {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="ad-container">
+        <video id="video-slot" playsinline webkit-playsinline></video>
+        <div id="slot"></div>
+    </div>
+
+    <script src="vpaid.js"></script>
+    <script>
+        var vpaid = new getVPAIDAd(); // Assuming the factory returns the instance directly or we need to check how it's exported
+
+        // Check how vpaid.js exports the class. 
+        // Looking at the code: 
+        // 800:    GLOBAL FACTORY
+        // It usually assigns to window.getVPAIDAd = function() { return new SelectorVPAID(); };
+
+        // Let's assume the standard VPAID factory pattern.
+
+        var slot = document.getElementById('slot');
+        var videoSlot = document.getElementById('video-slot');
+
+        vpaid.handshakeVersion('2.0');
+
+        var adParameters = {
+            "staticImageUrl": "background.png",
+            "videoOptions": [
+                {
+                    "id": "video1",
+                    "videoUrl": "video1.mp4",
+                    "clickThroughUrl": "https://dobrycola-promo.ru/video1"
+                },
+                {
+                    "id": "video2",
+                    "videoUrl": "video2.mp4",
+                    "clickThroughUrl": "https://dobrycola-promo.ru/video2"
+                }
+            ],
+            "tracking": {
+                // ... tracking events ...
+            },
+            "autoStartTimeoutMs": 10000,
+            "config": {
+            }
+        };
+
+        vpaid.initAd(
+            1280,
+            720,
+            'normal',
+            1000,
+            { AdParameters: JSON.stringify(adParameters) },
+            { slot: slot, videoSlot: videoSlot }
+        );
+
+        vpaid.subscribe(function () {
+            console.log('AdLoaded');
+            vpaid.startAd();
+        }, 'AdLoaded');
+
+        vpaid.subscribe(function () {
+            console.log('AdStarted');
+        }, 'AdStarted');
+
+        vpaid.subscribe(function () {
+            console.log('AdStopped');
+        }, 'AdStopped');
+
+        vpaid.subscribe(function (url) {
+            console.log('AdClickThru', url);
+        }, 'AdClickThru');
+
+        vpaid.subscribe(function (msg) {
+            console.error('AdError', msg);
+        }, 'AdError');
+
+    </script>
+
+</body>
+
+</html>
