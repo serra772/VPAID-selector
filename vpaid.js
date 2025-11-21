@@ -456,10 +456,12 @@
         }
 
         // Ensure video slot is visible
-        this._videoSlot.style.display = "block";
-        this._videoSlot.style.width = "100%";
-        this._videoSlot.style.height = "100%";
-        this._videoSlot.style.zIndex = "10";
+        if (this._videoSlot.style) {
+            this._videoSlot.style.display = "block";
+            this._videoSlot.style.width = "100%";
+            this._videoSlot.style.height = "100%";
+            this._videoSlot.style.zIndex = "10";
+        }
 
         // Ensure slot (which holds the click layer) is ABOVE the video
         if (this._slot) {
