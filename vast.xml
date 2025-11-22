@@ -10,7 +10,7 @@
         Replace the URL below with your impression tracker.
       -->
       <Impression>
-        <![CDATA[[INSERT_IMPRESSION_TRACKER_URL_HERE]]]>
+        <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
       </Impression>
 
       <Creatives>
@@ -24,37 +24,37 @@
                 Replace the URLs below with your specific trackers for each event.
               -->
               <Tracking event="start">
-                <![CDATA[[INSERT_TRACKING_URL_START_HERE]]]>
+                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
               </Tracking>
               <Tracking event="firstQuartile">
-                <![CDATA[[INSERT_TRACKING_URL_FIRST_QUARTILE_HERE]]]>
+                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
               </Tracking>
               <Tracking event="midpoint">
-                <![CDATA[[INSERT_TRACKING_URL_MIDPOINT_HERE]]]>
+                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
               </Tracking>
               <Tracking event="thirdQuartile">
-                <![CDATA[[INSERT_TRACKING_URL_THIRD_QUARTILE_HERE]]]>
+                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
               </Tracking>
               <Tracking event="complete">
-                <![CDATA[[INSERT_TRACKING_URL_COMPLETE_HERE]]]>
+                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
               </Tracking>
               <Tracking event="mute">
-                <![CDATA[[INSERT_TRACKING_URL_MUTE_HERE]]]>
+                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
               </Tracking>
               <Tracking event="unmute">
-                <![CDATA[[INSERT_TRACKING_URL_UNMUTE_HERE]]]>
+                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
               </Tracking>
               <Tracking event="pause">
-                <![CDATA[[INSERT_TRACKING_URL_PAUSE_HERE]]]>
+                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
               </Tracking>
               <Tracking event="resume">
-                <![CDATA[[INSERT_TRACKING_URL_RESUME_HERE]]]>
+                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
               </Tracking>
               <Tracking event="fullscreen">
-                <![CDATA[[INSERT_TRACKING_URL_FULLSCREEN_HERE]]]>
+                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
               </Tracking>
               <Tracking event="exitFullscreen">
-                <![CDATA[[INSERT_TRACKING_URL_EXIT_FULLSCREEN_HERE]]]>
+                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
               </Tracking>
               <!-- Optional: Add more events like 'skip', 'progress', etc. if needed -->
             </TrackingEvents>
@@ -66,10 +66,10 @@
                 ClickTracking: The pixel fired when a click occurs.
               -->
               <ClickThrough>
-                <![CDATA[[INSERT_FALLBACK_CLICK_THROUGH_URL_HERE]]]>
+                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1088609653&adid=1088609654&ord={%CACHEBUSTER%}&LineID=$$site_id={%SITEID%}&erid=[erir_token]$$]]]>
               </ClickThrough>
               <ClickTracking>
-                <![CDATA[[INSERT_CLICK_TRACKING_PIXEL_URL_HERE]]]>
+                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1088609653&adid=1088609654&ord=[timestamp]&LineID=$$site_id={%SITEID%}&erid=[erir_token]$$]]]>
               </ClickTracking>
             </VideoClicks>
 
@@ -109,8 +109,8 @@
                       "clickThroughUrl": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1088609653&adid=1088609654&ord={%CACHEBUSTER%}&LineID=$$site_id={%SITEID%}&erid=[erir_token]$$"
                     }
                   ],
-                  "customPixelBaseUrl": "[INSERT_CUSTOM_PIXEL_BASE_URL_HERE]",
-                  "customPixelCommonParams": "&campaign_id=[INSERT_CAMPAIGN_ID]"
+                  "customPixelBaseUrl": "[https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1088609653&adid=1088609654&ord=[timestamp]&LineID=$$site_id={%SITEID%}&erid=[erir_token]$$]",
+                  "customPixelCommonParams": "&campaign_id=[Dobry]"
                 }
               ]]>
             </AdParameters>
