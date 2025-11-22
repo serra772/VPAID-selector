@@ -101,12 +101,12 @@
                     {
                       "id": "video1",
                       "videoUrl": "https://serra772.github.io/VPAID-selector/video1.mp4",
-                      "clickThroughUrl": "https://dobrycola-promo.ru"
+                      "clickThroughUrl": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1088609653&adid=1088609654&ord={%CACHEBUSTER%}&LineID=$$site_id={%SITEID%}&erid=[erir_token]$$"
                     },
                     {
                       "id": "video2",
                       "videoUrl": "https://serra772.github.io/VPAID-selector/video2.mp4",
-                      "clickThroughUrl": "https://dobrycola-promo.ru"
+                      "clickThroughUrl": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1088609653&adid=1088609654&ord={%CACHEBUSTER%}&LineID=$$site_id={%SITEID%}&erid=[erir_token]$$"
                     }
                   ],
                   "customPixelBaseUrl": "[INSERT_CUSTOM_PIXEL_BASE_URL_HERE]",
