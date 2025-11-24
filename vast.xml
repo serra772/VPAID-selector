@@ -4,60 +4,11 @@
       <AdSystem>VPAID Selector System</AdSystem>
       <AdTitle>VPAID Video Selector</AdTitle>
       <Description>Interactive VPAID 2.0 unit with dual video selection</Description>
-      
-      <!-- 
-        *** IMPRESSION TRACKING *** 
-        Replace the URL below with your impression tracker.
-      -->
-      <Impression>
-        <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
-      </Impression>
 
       <Creatives>
         <Creative sequence="1">
           <Linear>
             <Duration>00:00:30</Duration>
-            
-            <TrackingEvents>
-              <!-- 
-                *** VIDEO TRACKING EVENTS *** 
-                Replace the URLs below with your specific trackers for each event.
-              -->
-              <Tracking event="start">
-                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
-              </Tracking>
-              <Tracking event="firstQuartile">
-                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
-              </Tracking>
-              <Tracking event="midpoint">
-                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
-              </Tracking>
-              <Tracking event="thirdQuartile">
-                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
-              </Tracking>
-              <Tracking event="complete">
-                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
-              </Tracking>
-              <Tracking event="mute">
-                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
-              </Tracking>
-              <Tracking event="unmute">
-                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
-              </Tracking>
-              <Tracking event="pause">
-                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
-              </Tracking>
-              <Tracking event="resume">
-                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
-              </Tracking>
-              <Tracking event="fullscreen">
-                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
-              </Tracking>
-              <Tracking event="exitFullscreen">
-                <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord=[timestamp]&pcp=$${%SITEID%}$$]]]>
-              </Tracking>
-              <!-- Optional: Add more events like 'skip', 'progress', etc. if needed -->
-            </TrackingEvents>
 
             <VideoClicks>
               <!-- 
@@ -101,12 +52,12 @@
                     {
                       "id": "video1",
                       "videoUrl": "https://serra772.github.io/VPAID-selector/video1.mp4",
-                      "clickThroughUrl": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1088609653&adid=1088609654&ord={%CACHEBUSTER%}&LineID=$$site_id={%SITEID%}&erid=[erir_token]$$"
+                      "clickThroughUrl": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609657&adid=1088609658&ord={%CACHEBUSTER%}&pcp=$${%SITEID%}$$"
                     },
                     {
                       "id": "video2",
                       "videoUrl": "https://serra772.github.io/VPAID-selector/video2.mp4",
-                      "clickThroughUrl": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1088609653&adid=1088609654&ord={%CACHEBUSTER%}&LineID=$$site_id={%SITEID%}&erid=[erir_token]$$"
+                      "clickThroughUrl": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord={%CACHEBUSTER%}&pcp=$${%SITEID%}$$"
                     }
                   ],
                   "customPixelBaseUrl": "[https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1088609653&adid=1088609654&ord=[timestamp]&LineID=$$site_id={%SITEID%}&erid=[erir_token]$$]",
