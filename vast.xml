@@ -4,6 +4,14 @@
       <AdSystem>VPAID Selector System</AdSystem>
       <AdTitle>VPAID Video Selector</AdTitle>
       <Description>Interactive VPAID 2.0 unit with dual video selection</Description>
+      
+      <!-- 
+        *** IMPRESSION TRACKING *** 
+        Replace the URL below with your impression tracker.
+      -->
+      <Impression>
+        <![CDATA[[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord={%CACHEBUSTER%}&pcp=$${%SITEID%}$$]]]>
+      </Impression>
 
       <Creatives>
         <Creative sequence="1">
@@ -52,12 +60,12 @@
                     {
                       "id": "video1",
                       "videoUrl": "https://serra772.github.io/VPAID-selector/video1.mp4",
-                      "clickThroughUrl": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609657&adid=1088609658&ord={%CACHEBUSTER%}&pcp=$${%SITEID%}$$"
+                      "clickThroughUrl": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1088609653&adid=1088609654&ord={%CACHEBUSTER%}&LineID=$$site_id={%SITEID%}&erid=[erir_token]$$"
                     },
                     {
                       "id": "video2",
                       "videoUrl": "https://serra772.github.io/VPAID-selector/video2.mp4",
-                      "clickThroughUrl": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1088609653&adid=1088609654&ord={%CACHEBUSTER%}&pcp=$${%SITEID%}$$"
+                      "clickThroughUrl": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1088609653&adid=1088609654&ord={%CACHEBUSTER%}&LineID=$$site_id={%SITEID%}&erid=[erir_token]$$"
                     }
                   ],
                   "customPixelBaseUrl": "[https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1088609653&adid=1088609654&ord=[timestamp]&LineID=$$site_id={%SITEID%}&erid=[erir_token]$$]",
