@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+  <Ad id="5502027">
+    <InLine>
+      <AdSystem version="1.0">VPAID Constructor</AdSystem>
+      <AdTitle>Monarch Interests</AdTitle>
+      <Description><![CDATA[Generated VPAID Custom Ad]]></Description>
+      <Error><![CDATA[]]></Error>
+      <Impression><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=25&pli=1090604723&adid=1090604724&ord=~cache-buster~&pcp=$$~site-id~$$]]></Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:15</Duration>
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5EebVideoStarted%7E0%7E0%7E01010&ord=~cache-buster~]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5Eeb25Per_Played%7E0%7E0%7E01010&ord=~cache-buster~]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5Eeb50Per_Played%7E0%7E0%7E01010&ord=~cache-buster~]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5Eeb75Per_Played%7E0%7E0%7E01010&ord=~cache-buster~]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5EebVideoFullPlay%7E0%7E0%7E01010&ord=~cache-buster~]]></Tracking>
+              <Tracking event="mute"><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5EebVideoMute%7E0%7E0%7E01110&ord=~cache-buster~]]></Tracking>
+              <Tracking event="unmute"><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5EebVideoUnmuted%7E0%7E0%7E01110&ord=~cache-buster~]]></Tracking>
+              <Tracking event="pause"><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5EebVideoPause%7E0%7E0%7E01110&ord=~cache-buster~]]></Tracking>
+              <Tracking event="rewind"><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5EebVideoReplay%7E0%7E0%7E01010&ord=~cache-buster~]]></Tracking>
+              <Tracking event="skip"><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5EebSkip%7E0%7E0%7E01020&ord=~cache-buster~]]></Tracking>
+            </TrackingEvents>
+            <AdParameters xmlEncoded="0"/>
+            <VideoClicks>
+              <ClickThrough><![CDATA[https://www.ozon.ru/product/napitok-kofeynyy-rastvorimyy-monarch-rozovyy-raf-so-vkusom-klubniki-20-shtuk-4436730566/?_bctx=CAMQ4tiQMA&at=XQtkQ3x8qFDzr6GsAZrWvpul35MN5UlrVL0Ds2njLlP&sh=ehSjD0pEVA]]></ClickThrough>
+              <ClickTracking><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=bisi&pli=1090604723&adid=1090604724&ord=~cache-buster~&LineID=$$~site-id~&erid=~token-ord~$$]]></ClickTracking>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile delivery="progressive" width="16" height="9" apiFramework="VPAID" type="application/javascript">
+                <![CDATA[
+https://serra772.github.io/VPAID-selector/vpaid_Monarch_Interests.js
+                ]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
