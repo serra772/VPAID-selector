@@ -11,30 +11,10 @@
   "settings": {
     "clickThroughUrl": "https://www.ozon.ru/product/napitok-kofeynyy-rastvorimyy-monarch-rozovyy-raf-so-vkusom-klubniki-20-shtuk-4436730566/?_bctx=CAMQ4tiQMA&at=XQtkQ3x8qFDzr6GsAZrWvpul35MN5UlrVL0Ds2njLlP&sh=ehSjD0pEVA",
     "adDuration": 15,
-    "impressionTracker": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=25&pli=1090604723&adid=1090604724&ord=~cache-buster~&pcp=$$~site-id~$$",
-    "clickTracker": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=bisi&pli=1090604723&adid=1090604724&ord=~cache-buster~&LineID=$$~site-id~&erid=~token-ord~$$",
+    "impressionTracker": "",
+    "clickTracker": "",
     "trackingTemplate": "",
     "errorTracker": ""
-  },
-  "tracking": {
-      "impression": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=25&pli=1090604723&adid=1090604724&ord=~cache-buster~&pcp=$$~site-id~$$",
-      "click": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=bisi&pli=1090604723&adid=1090604724&ord=~cache-buster~&LineID=$$~site-id~&erid=~token-ord~$$",
-      "videoStarted": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5EebVideoStarted%7E0%7E0%7E01010&ord=~cache-buster~",
-      "video25": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5Eeb25Per_Played%7E0%7E0%7E01010&ord=~cache-buster~",
-      "video50": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5Eeb50Per_Played%7E0%7E0%7E01010&ord=~cache-buster~",
-      "video75": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5Eeb75Per_Played%7E0%7E0%7E01010&ord=~cache-buster~",
-      "videoEnded": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5EebVideoFullPlay%7E0%7E0%7E01010&ord=~cache-buster~",
-      "videoMute": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5EebVideoMute%7E0%7E0%7E01110&ord=~cache-buster~",
-      "videoUnmuted": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5EebVideoUnmuted%7E0%7E0%7E01110&ord=~cache-buster~",
-      "videoPause": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5EebVideoPause%7E0%7E0%7E01110&ord=~cache-buster~",
-      "videoReplay": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5EebVideoReplay%7E0%7E0%7E01010&ord=~cache-buster~",
-      "videoFSStart": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5EebFSStart%7E0%7E0%7E01110&ord=~cache-buster~",
-      "videoFSEnd": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5EebFSEnd%7E0%7E0%7E01110&ord=~cache-buster~",
-      "videoFSMute": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5EebFSVideoMute%7E0%7E0%7E01110&ord=~cache-buster~",
-      "videoFSUnmuted": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5EebFSVideoUnmuted%7E0%7E0%7E01110&ord=~cache-buster~",
-      "videoFSPause": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5EebFSVideoPause%7E0%7E0%7E01110&ord=~cache-buster~",
-      "videoSkip": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5EebSkip%7E0%7E0%7E01020&ord=~cache-buster~",
-      "videoEngagedView": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=isi&iv=2&interactionsStr=1090604724%7E%7E%7E0%7E%7E%7E%5EebEngagedView%7E0%7E0%7E01020&ord=~cache-buster~"
   },
   "assets": {
     "background": "https://serra772.github.io/VPAID-selector/Monarch_background.png",
@@ -111,17 +91,11 @@
 
   function triggerClick(targetUrl) {
     var u = targetUrl || CONFIG.settings.clickThroughUrl;
-    firePixel((CONFIG.tracking && CONFIG.tracking.click) || CONFIG.settings.clickTracker);
-    if (CONFIG.tracking && CONFIG.tracking.videoEngagedView && !vpaid._engaged) {
-      vpaid._engaged = true;
-      firePixel(CONFIG.tracking.videoEngagedView);
+    if (CONFIG.settings.clickTracker) {
+      firePixel(CONFIG.settings.clickTracker);
     }
     if (u) window.open(u, "_blank");
     bus.emit("AdClickThru", u, null, true);
-  }
-
-  function isFullScreen() {
-    return !!(document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement);
   }
 
   /* ---- Render Components ---- */
@@ -189,11 +163,10 @@
       triggerClick(videoClickUrl);
     };
 
-    // Use provided videoSlot or create inline
     var vid = videoSlot || document.createElement("video");
     vid.src = url;
     vid.muted = false;
-    vid.loop = false; // Disabled loop for standard VPAID completion
+    vid.loop = false;
     vid.playsInline = true;
     vid.setAttribute("playsinline", "");
     vid.style.cssText = "width:100%;height:100%;object-fit:cover;border-radius:" + radius + ";";
@@ -209,7 +182,7 @@
       setTimeout(function() { vid.play().catch(function(){}); }, autoDelay);
     }
 
-    // --- Play/Pause Control (optional) ---
+    // Play/Pause Control (optional)
     if (comp.props.showPlayControl) {
       var playBtn = document.createElement("div");
       playBtn.style.cssText = "position:absolute;bottom:8px;left:8px;width:28px;height:28px;background:rgba(0,0,0,0.6);border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:20;";
@@ -233,7 +206,7 @@
       }
     }
 
-    // --- Sound Controls (optional) ---
+    // Sound Controls (optional)
     if (comp.props.showSoundControl) {
       var volWrap = document.createElement("div");
       volWrap.style.cssText = "position:absolute;bottom:8px;right:8px;display:flex;align-items:center;gap:4px;z-index:20;";
@@ -250,16 +223,9 @@
       volSlider.oninput = function(e) {
         e.stopPropagation();
         var v = parseInt(volSlider.value, 10) / 100;
-        var wasMuted = vid.muted || vid.volume === 0;
         vid.volume = v;
         vid.muted = (v === 0);
-        var isMuted = vid.muted || vid.volume === 0;
-        soundBtn.innerHTML = isMuted ? muteIcon() : unmuteIcon();
-        if (isMuted && !wasMuted) {
-          firePixel(isFullScreen() ? (CONFIG.tracking && CONFIG.tracking.videoFSMute) : (CONFIG.tracking && CONFIG.tracking.videoMute));
-        } else if (!isMuted && wasMuted) {
-          firePixel(isFullScreen() ? (CONFIG.tracking && CONFIG.tracking.videoFSUnmuted) : (CONFIG.tracking && CONFIG.tracking.videoUnmuted));
-        }
+        soundBtn.innerHTML = vid.muted ? muteIcon() : unmuteIcon();
         bus.emit("AdVolumeChange");
       };
       volPanel.appendChild(volSlider);
@@ -280,17 +246,10 @@
       soundBtn.innerHTML = vid.muted ? muteIcon() : unmuteIcon();
       soundBtn.onclick = function(e) {
         e.stopPropagation();
-        var wasMuted = vid.muted || vid.volume === 0;
         vid.muted = !vid.muted;
         if (!vid.muted && vid.volume === 0) { vid.volume = 0.5; }
-        var isMuted = vid.muted || vid.volume === 0;
-        soundBtn.innerHTML = isMuted ? muteIcon() : unmuteIcon();
-        volSlider.value = String(Math.round((isMuted ? 0 : vid.volume) * 100));
-        if (isMuted && !wasMuted) {
-          firePixel(isFullScreen() ? (CONFIG.tracking && CONFIG.tracking.videoFSMute) : (CONFIG.tracking && CONFIG.tracking.videoMute));
-        } else if (!isMuted && wasMuted) {
-          firePixel(isFullScreen() ? (CONFIG.tracking && CONFIG.tracking.videoFSUnmuted) : (CONFIG.tracking && CONFIG.tracking.videoUnmuted));
-        }
+        soundBtn.innerHTML = vid.muted ? muteIcon() : unmuteIcon();
+        volSlider.value = String(Math.round((vid.muted ? 0 : vid.volume) * 100));
         bus.emit("AdVolumeChange");
       };
       volWrap.appendChild(soundBtn);
@@ -299,10 +258,6 @@
     vid.onplay = function() {
       if (!vid._started) {
         vid._started = true;
-        firePixel(CONFIG.tracking && CONFIG.tracking.videoStarted);
-      } else if (vid._replayPending) {
-        vid._replayPending = false;
-        firePixel(CONFIG.tracking && CONFIG.tracking.videoReplay);
       }
     };
 
@@ -313,32 +268,20 @@
       var pct = vid.currentTime / vid.duration;
       if (pct >= 0.25 && !vid._q1) {
         vid._q1 = true;
-        firePixel(CONFIG.tracking && CONFIG.tracking.video25);
         bus.emit("AdVideoFirstQuartile");
       }
       if (pct >= 0.50 && !vid._q2) {
         vid._q2 = true;
-        firePixel(CONFIG.tracking && CONFIG.tracking.video50);
         bus.emit("AdVideoMidpoint");
       }
       if (pct >= 0.75 && !vid._q3) {
         vid._q3 = true;
-        firePixel(CONFIG.tracking && CONFIG.tracking.video75);
         bus.emit("AdVideoThirdQuartile");
-      }
-      if ((vid.currentTime >= 10 || pct >= 0.75) && !vid._engaged) {
-        vid._engaged = true;
-        firePixel(CONFIG.tracking && CONFIG.tracking.videoEngagedView);
       }
     };
 
     vid.onpause = function() {
       if (!vid.ended && !vpaid._stopped) {
-        if (isFullScreen()) {
-          firePixel(CONFIG.tracking && CONFIG.tracking.videoFSPause);
-        } else {
-          firePixel(CONFIG.tracking && CONFIG.tracking.videoPause);
-        }
         bus.emit("AdPaused");
       }
     };
@@ -346,11 +289,6 @@
     vid.onended = function() {
       if (!vid._ended) {
         vid._ended = true;
-        if (!vid._engaged) {
-          vid._engaged = true;
-          firePixel(CONFIG.tracking && CONFIG.tracking.videoEngagedView);
-        }
-        firePixel(CONFIG.tracking && CONFIG.tracking.videoEnded);
         bus.emit("AdVideoComplete");
       }
       vpaid.stopAd();
@@ -597,7 +535,7 @@
   /* ---- VPAID Interface ---- */
   var vpaid = {
     slot: null, videoSlot: null, scaler: null,
-    _width: 0, _height: 0, _started: false, _stopped: false, _engaged: false,
+    _width: 0, _height: 0, _started: false, _stopped: false,
 
     handshakeVersion: function() { return "2.0"; },
 
@@ -613,7 +551,9 @@
 
     startAd: function() {
       this._started = true;
-      firePixel((CONFIG.tracking && CONFIG.tracking.impression) || CONFIG.settings.impressionTracker);
+      if (CONFIG.settings.impressionTracker) {
+        firePixel(CONFIG.settings.impressionTracker);
+      }
       fireTracking("impression");
       bus.emit("AdImpression");
       bus.emit("AdStarted");
@@ -635,7 +575,6 @@
     adStop: function() { this.stopAd(); },
 
     skipAd: function() {
-      firePixel(CONFIG.tracking && CONFIG.tracking.videoSkip);
       fireTracking("skip");
       bus.emit("AdSkipped");
       this.stopAd();
@@ -644,11 +583,9 @@
     resumeAd: function() { var v = this.scaler && this.scaler.wrapper.querySelector("video"); if(v) v.play(); bus.emit("AdPlaying"); },
     resizeAd: function(w, h, viewMode) { this._width = w; this._height = h; if(this.scaler) this.scaler.update(w, h); bus.emit("AdSizeChange"); },
     expandAd: function() {
-      firePixel(CONFIG.tracking && CONFIG.tracking.videoFSStart);
       bus.emit("AdExpandedChange");
     },
     collapseAd: function() {
-      firePixel(CONFIG.tracking && CONFIG.tracking.videoFSEnd);
       bus.emit("AdExpandedChange");
     },
 
@@ -663,15 +600,8 @@
     setAdVolume: function(val) {
       var v = this.scaler && this.scaler.wrapper.querySelector("video");
       if (v && !isNaN(val)) {
-        var wasMuted = v.muted || v.volume === 0;
         v.volume = val;
         v.muted = val === 0;
-        var isMuted = v.muted || v.volume === 0;
-        if (isMuted && !wasMuted) {
-          firePixel(CONFIG.tracking && CONFIG.tracking.videoMute);
-        } else if (!isMuted && wasMuted) {
-          firePixel(CONFIG.tracking && CONFIG.tracking.videoUnmuted);
-        }
       }
       bus.emit("AdVolumeChange");
     },
