@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+  <Ad id="5502027">
+    <InLine>
+      <AdSystem version="1.0">VPAID Constructor</AdSystem>
+      <AdTitle>Topicrem</AdTitle>
+      <Description><![CDATA[Generated VPAID Custom Ad]]></Description>
+      <Error><![CDATA[]]></Error>
+      <Impression><![CDATA[https://ad.adriver.ru/cgi-bin/rle.cgi?sid=1&bt=55&ad=844967&pid=4970881&bid=15080004&bn=15080004&exss=&rnd=[timestamp]]]></Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:11</Duration>
+            <AdParameters xmlEncoded="0"/>
+            <VideoClicks>
+              <ClickThrough><![CDATA[https://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=55&ad=844967&pid=4970881&bid=15080004&bn=15080004&exss=&erid=[erir_token]&rnd=[timestamp]]]></ClickThrough>
+              <ClickTracking><![CDATA[https://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=55&ad=844967&pid=4970881&bid=15080004&bn=15080004&exss=&erid=[erir_token]&rnd=[timestamp]]]></ClickTracking>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile delivery="progressive" width="16" height="9" apiFramework="VPAID" type="application/javascript">
+                <![CDATA[
+https://serra772.github.io/VPAID-selector/Topicrem_vpaid.js
+                ]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
