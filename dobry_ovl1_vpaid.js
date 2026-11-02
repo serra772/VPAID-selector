@@ -10,7 +10,7 @@
   "adHeight": 720,
   "settings": {
     "clickThroughUrl": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1090750068&adid=1090750069&ord=~cache-buster~&LineID=$$~site-id~&erid=~token-ord~$$",
-    "adDuration": 10,
+    "adDuration": 20,
     "impressionTracker": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1090750068&adid=1090750069&ord=~cache-buster~&pcp=$$~site-id~$$",
     "clickTracker": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1090750068&adid=1090750069&ord=~cache-buster~&LineID=$$~site-id~&erid=~token-ord~$$",
     "trackingTemplate": "",
@@ -19,7 +19,7 @@
   "assets": {
     "background": "https://serra772.github.io/VPAID-selector/Dobry_Xmax2026_1280_720.jpg",
     "bgColor": "#000000",
-    "videoUrl": "https://serra772.github.io/VPAID-selector/Dobry_Losville_10s_261021_solta.mp4"
+    "videoUrl": "https://serra772.github.io/VPAID-selector/Dobry_Losville_20s_261023_solta.mp4"
   },
   "components": [
     {
@@ -31,7 +31,7 @@
         "h": 362
       },
       "props": {
-        "videoUrl": "https://serra772.github.io/VPAID-selector/Dobry_Losville_10s_261021_solta.mp4",
+        "videoUrl": "https://serra772.github.io/VPAID-selector/Dobry_Losville_20s_261023_solta.mp4",
         "videoClickUrl": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1090750068&adid=1090750069&ord=~cache-buster~&LineID=$$~site-id~&erid=~token-ord~$$",
         "autoplayDelayMs": 0,
         "showPlayControl": false,
