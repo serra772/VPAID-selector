@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+  <Ad id="5502027">
+    <InLine>
+      <AdSystem version="1.0">VPAID Constructor</AdSystem>
+      <AdTitle>Dobry_Xmas</AdTitle>
+      <Description><![CDATA[Generated VPAID Custom Ad]]></Description>
+      <Error><![CDATA[]]></Error>
+      <Impression><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1090750068&adid=1090750069&ord=~cache-buster~&pcp=$$~site-id~$$]]></Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:10</Duration>
+            <AdParameters xmlEncoded="0"/>
+            <VideoClicks>
+              <ClickThrough><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1090750068&adid=1090750069&ord=~cache-buster~&LineID=$$~site-id~&erid=~token-ord~$$]]></ClickThrough>
+              <ClickTracking><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1090750068&adid=1090750069&ord=~cache-buster~&LineID=$$~site-id~&erid=~token-ord~$$]]></ClickTracking>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile delivery="progressive" width="16" height="9" apiFramework="VPAID" type="application/javascript">
+                <![CDATA[
+https://serra772.github.io/VPAID-selector/dobry_ovl1_vpaid.js
+                ]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
