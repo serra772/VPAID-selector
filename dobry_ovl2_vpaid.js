@@ -132,9 +132,11 @@
     // Use provided videoSlot or create inline
     var vid = videoSlot || document.createElement("video");
     vid.src = url;
-    vid.muted = false; vid.loop = true; vid.playsInline = true;
+    vid.muted = false; vid.loop = false; vid.removeAttribute("loop"); vid.playsInline = true;
     vid.setAttribute("playsinline","");
     vid.style.cssText = "width:100%;height:100%;object-fit:cover;";
+    if (videoSlot && videoSlot.parentNode) { _videoHome = { parent: videoSlot.parentNode, next: videoSlot.nextSibling, css: videoSlot.style.cssText }; }
+    _video = vid;
     el.appendChild(vid);
 
     // Autoplay after delay
@@ -225,14 +227,35 @@
       volWrap.appendChild(soundBtn);
     }
 
-    vid.onloadedmetadata = function() { bus.emit("AdDurationChange"); };
-    vid.ontimeupdate = function() {
+    vid.addEventListener("loadedmetadata", function() { bus.emit("AdDurationChange"); });
+    vid.addEventListener("timeupdate", function() {
+      if (!vid.duration || isNaN(vid.duration)) return;
       var pct = vid.currentTime / vid.duration;
       if (pct >= 0.25 && !vid._q1) { vid._q1 = true; bus.emit("AdVideoFirstQuartile"); }
       if (pct >= 0.50 && !vid._q2) { vid._q2 = true; bus.emit("AdVideoMidpoint"); }
       if (pct >= 0.75 && !vid._q3) { vid._q3 = true; bus.emit("AdVideoThirdQuartile"); }
-    };
-    vid.onended = function() { bus.emit("AdVideoComplete"); vpaid.stopAd(); };
+      if (vid.duration - vid.currentTime <= 0.2) completeVideo();
+    });
+    vid.addEventListener("ended", completeVideo);
+    // Watchdog in case the player swallows media events
+    _watchdog = setInterval(function() {
+      if (vid.ended || (vid.duration && vid.currentTime >= vid.duration - 0.2)) completeVideo();
+    }, 250);
+  }
+
+  /* ---- Completion: AdVideoComplete -> stop video -> AdStopped ---- */
+  var _video = null, _videoHome = null, _watchdog = null, _completed = false;
+  function completeVideo() {
+    if (_completed) return;
+    _completed = true;
+    if (_video) {
+      if (!_video._q1) { _video._q1 = true; bus.emit("AdVideoFirstQuartile"); }
+      if (!_video._q2) { _video._q2 = true; bus.emit("AdVideoMidpoint"); }
+      if (!_video._q3) { _video._q3 = true; bus.emit("AdVideoThirdQuartile"); }
+      try { _video.pause(); } catch (e) {}
+    }
+    bus.emit("AdVideoComplete");
+    vpaid.stopAd();
   }
 
   function muteIcon() { return '<svg viewBox="0 0 24 24" fill="#fff" style="width:16px;height:16px"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-16.73-16.73zM12 4L9.91 6.09 12 8.18V4z"/></svg>'; }
@@ -522,13 +545,26 @@
     stopAd: function() {
       if (this._stopped) return;
       this._stopped = true;
+      _completed = true;
+      if (_watchdog) { clearInterval(_watchdog); _watchdog = null; }
+      if (_video) {
+        try { _video.pause(); _video.loop = false; _video.autoplay = false; } catch (e) {}
+        if (_videoHome) {
+          try { _video.style.cssText = _videoHome.css; _videoHome.parent.insertBefore(_video, _videoHome.next && _videoHome.next.parentNode === _videoHome.parent ? _videoHome.next : null); } catch (e) {}
+        } else {
+          try { _video.removeAttribute("src"); _video.load(); } catch (e) {}
+        }
+      }
+      if (this.scaler && this.scaler.wrapper && this.scaler.wrapper.parentNode) {
+        this.scaler.wrapper.parentNode.removeChild(this.scaler.wrapper);
+      }
       fireTracking("close");
       bus.emit("AdStopped");
     },
 
     skipAd: function() { fireTracking("skip"); bus.emit("AdSkipped"); },
     pauseAd: function() { var v = this.scaler && this.scaler.wrapper.querySelector("video"); if(v) v.pause(); bus.emit("AdPaused"); },
-    resumeAd: function() { var v = this.scaler && this.scaler.wrapper.querySelector("video"); if(v) v.play(); bus.emit("AdPlaying"); },
+    resumeAd: function() { if (this._stopped) return; var v = this.scaler && this.scaler.wrapper.querySelector("video"); if(v) v.play(); bus.emit("AdPlaying"); },
     resizeAd: function(w, h, viewMode) { this._width = w; this._height = h; if(this.scaler) this.scaler.update(w, h); bus.emit("AdSizeChange"); },
     expandAd: function() { bus.emit("AdExpandedChange"); },
     collapseAd: function() { bus.emit("AdExpandedChange"); },
