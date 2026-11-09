@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+  <Ad id="5502027">
+    <InLine>
+      <AdSystem version="1.0">VPAID Constructor</AdSystem>
+      <AdTitle>Molped_2026</AdTitle>
+      <Description><![CDATA[Generated VPAID Custom Ad]]></Description>
+      <Error><![CDATA[https://www.tns-counter.ru/V13a****bbdo_ad/ru/UTF-8/tmsec=bbdo_cid1312080-posid3753539/]]></Error>
+      <Impression><![CDATA[https://www.tns-counter.ru/V13a****bbdo_ad/ru/UTF-8/tmsec=bbdo_cid1312080-posid3753539/]]></Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:14</Duration>
+            <AdParameters xmlEncoded="0"/>
+            <VideoClicks>
+              <ClickThrough><![CDATA[https://ads.x5media.ru/uplink/c/fiveapp/dba2c1da-b78e-4c72-9d3c-59f6a3419ed9?utm_source=solta_shop_olv_14&utm_medium=cpm&utm_campaign=molped_glam_oct_dec_2026]]></ClickThrough>
+              <ClickTracking><![CDATA[https://www.tns-counter.ru/V13a****bbdo_ad/ru/UTF-8/tmsec=bbdo_cid1312080-posid3753539/]]></ClickTracking>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile delivery="progressive" width="16" height="9" apiFramework="VPAID" type="application/javascript">
+                <![CDATA[
+https://serra772.github.io/VPAID-selector/molped_2026_vpaid.js
+                ]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
