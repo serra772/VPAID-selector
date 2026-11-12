@@ -9,10 +9,10 @@
   "adWidth": 1280,
   "adHeight": 720,
   "settings": {
-    "clickThroughUrl": "https://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=55&ad=844967&pid=4970881&bid=15080004&bn=~mini-cache-buster~&exss=~client-bid-id~&erid=2VfnxvcpQbn&rnd=~cache-buster~&exs0=solta&exs1=~p2~&exs2=~line-item-id~&exs3=~p3~&exs4=~domain~&exs5=~ip~&exs6=~p4~&custom=11=~site-id~",
+    "clickThroughUrl": "https://goldapple.ru/brands/topicrem/bestsellery?utm_source=solta&utm_medium=cpm&utm_campaign=sl_mayoly_topicrem_olv_video_interests-keys-uh_8_2026_rf&utm_content=w25-45_04270-0004&utm_term=~site-id~&erid=2VfnxvcpQbn&from=&adrclid=D3PKXSzJB2a7fGher-nU2MTiDO7eQ3W9Qomf5QzgvMV-uD8q5S2uLZys_DZo3wM6gp1agR0Q-KXvidAd5uWo",
     "adDuration": 11,
-    "impressionTracker": "https://ad.adriver.ru/cgi-bin/rle.cgi?sid=1&bt=55&ad=844967&pid=4970881&bid=15080004&bn=~mini-cache-buster~&exss=~client-bid-id~&rnd=~cache-buster~&exs0=solta&exs1=~p2~&exs2=~line-item-id~&exs3=~p3~&exs4=~domain~&exs5=~ip~&exs6=~p4~&custom=11=~site-id~",
-    "clickTracker": "https://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=55&ad=844967&pid=4970881&bid=15080004&bn=~mini-cache-buster~&exss=~client-bid-id~&erid=2VfnxvcpQbn&rnd=~cache-buster~&exs0=solta&exs1=~p2~&exs2=~line-item-id~&exs3=~p3~&exs4=~domain~&exs5=~ip~&exs6=~p4~&custom=11=~site-id~",
+    "impressionTracker": "",
+    "clickTracker": "https://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=55&ad=844967&pid=4970881&bid=15080004&bn=15080004&exss=~client-bid-id~&erid=2VfnxvcpQbn&rnd=~cache-buster~&exs0=solta&exs1=~p2~&exs2=~line-item-id~&exs3=~p3~&exs4=~domain~&exs5=~ip~&exs6=~p4~&custom=11=~site-id~",
     "trackingTemplate": "",
     "errorTracker": ""
   },
@@ -49,12 +49,12 @@
           ""
         ],
         "clickUrls": [
-          "https://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=55&ad=844967&pid=4970881&bid=15080004&bn=~mini-cache-buster~&exss=~client-bid-id~&erid=2VfnxvcpQbn&rnd=~cache-buster~&exs0=solta&exs1=~p2~&exs2=~line-item-id~&exs3=~p3~&exs4=~domain~&exs5=~ip~&exs6=~p4~&custom=11=~site-id~",
-          "https://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=55&ad=844967&pid=4970881&bid=15080004&bn=~mini-cache-buster~&exss=~client-bid-id~&erid=2VfnxvcpQbn&rnd=~cache-buster~&exs0=solta&exs1=~p2~&exs2=~line-item-id~&exs3=~p3~&exs4=~domain~&exs5=~ip~&exs6=~p4~&custom=11=~site-id~",
-          "https://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=55&ad=844967&pid=4970881&bid=15080004&bn=~mini-cache-buster~&exss=~client-bid-id~&erid=2VfnxvcpQbn&rnd=~cache-buster~&exs0=solta&exs1=~p2~&exs2=~line-item-id~&exs3=~p3~&exs4=~domain~&exs5=~ip~&exs6=~p4~&custom=11=~site-id~",
-          "https://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=55&ad=844967&pid=4970881&bid=15080004&bn=~mini-cache-buster~&exss=~client-bid-id~&erid=2VfnxvcpQbn&rnd=~cache-buster~&exs0=solta&exs1=~p2~&exs2=~line-item-id~&exs3=~p3~&exs4=~domain~&exs5=~ip~&exs6=~p4~&custom=11=~site-id~",
-          "https://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=55&ad=844967&pid=4970881&bid=15080004&bn=~mini-cache-buster~&exss=~client-bid-id~&erid=2VfnxvcpQbn&rnd=~cache-buster~&exs0=solta&exs1=~p2~&exs2=~line-item-id~&exs3=~p3~&exs4=~domain~&exs5=~ip~&exs6=~p4~&custom=11=~site-id~",
-          "https://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=55&ad=844967&pid=4970881&bid=15080004&bn=~mini-cache-buster~&exss=~client-bid-id~&erid=2VfnxvcpQbn&rnd=~cache-buster~&exs0=solta&exs1=~p2~&exs2=~line-item-id~&exs3=~p3~&exs4=~domain~&exs5=~ip~&exs6=~p4~&custom=11=~site-id~"
+          "https://goldapple.ru/brands/topicrem/bestsellery?utm_source=solta&utm_medium=cpm&utm_campaign=sl_mayoly_topicrem_olv_video_interests-keys-uh_8_2026_rf&utm_content=w25-45_04270-0004&utm_term=~site-id~&erid=2VfnxvcpQbn&from=&adrclid=D3PKXSzJB2a7fGher-nU2MTiDO7eQ3W9Qomf5QzgvMV-uD8q5S2uLZys_DZo3wM6gp1agR0Q-KXvidAd5uWo",
+          "https://goldapple.ru/brands/topicrem/bestsellery?utm_source=solta&utm_medium=cpm&utm_campaign=sl_mayoly_topicrem_olv_video_interests-keys-uh_8_2026_rf&utm_content=w25-45_04270-0004&utm_term=~site-id~&erid=2VfnxvcpQbn&from=&adrclid=D3PKXSzJB2a7fGher-nU2MTiDO7eQ3W9Qomf5QzgvMV-uD8q5S2uLZys_DZo3wM6gp1agR0Q-KXvidAd5uWo",
+          "https://goldapple.ru/brands/topicrem/bestsellery?utm_source=solta&utm_medium=cpm&utm_campaign=sl_mayoly_topicrem_olv_video_interests-keys-uh_8_2026_rf&utm_content=w25-45_04270-0004&utm_term=~site-id~&erid=2VfnxvcpQbn&from=&adrclid=D3PKXSzJB2a7fGher-nU2MTiDO7eQ3W9Qomf5QzgvMV-uD8q5S2uLZys_DZo3wM6gp1agR0Q-KXvidAd5uWo",
+          "https://goldapple.ru/brands/topicrem/bestsellery?utm_source=solta&utm_medium=cpm&utm_campaign=sl_mayoly_topicrem_olv_video_interests-keys-uh_8_2026_rf&utm_content=w25-45_04270-0004&utm_term=~site-id~&erid=2VfnxvcpQbn&from=&adrclid=D3PKXSzJB2a7fGher-nU2MTiDO7eQ3W9Qomf5QzgvMV-uD8q5S2uLZys_DZo3wM6gp1agR0Q-KXvidAd5uWo",
+          "https://goldapple.ru/brands/topicrem/bestsellery?utm_source=solta&utm_medium=cpm&utm_campaign=sl_mayoly_topicrem_olv_video_interests-keys-uh_8_2026_rf&utm_content=w25-45_04270-0004&utm_term=~site-id~&erid=2VfnxvcpQbn&from=&adrclid=D3PKXSzJB2a7fGher-nU2MTiDO7eQ3W9Qomf5QzgvMV-uD8q5S2uLZys_DZo3wM6gp1agR0Q-KXvidAd5uWo",
+          "https://goldapple.ru/brands/topicrem/bestsellery?utm_source=solta&utm_medium=cpm&utm_campaign=sl_mayoly_topicrem_olv_video_interests-keys-uh_8_2026_rf&utm_content=w25-45_04270-0004&utm_term=~site-id~&erid=2VfnxvcpQbn&from=&adrclid=D3PKXSzJB2a7fGher-nU2MTiDO7eQ3W9Qomf5QzgvMV-uD8q5S2uLZys_DZo3wM6gp1agR0Q-KXvidAd5uWo"
         ],
         "slideInterval": 5
       }
@@ -99,7 +99,7 @@
       "zIndex": 30,
       "props": {
         "videoUrl": "https://serra772.github.io/VPAID-selector/Topicrem_UH_Milk_1280_720.mp4",
-        "videoClickUrl": "https://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=55&ad=844967&pid=4970881&bid=15080004&bn=~mini-cache-buster~&exss=~client-bid-id~&erid=2VfnxvcpQbn&rnd=~cache-buster~&exs0=solta&exs1=~p2~&exs2=~line-item-id~&exs3=~p3~&exs4=~domain~&exs5=~ip~&exs6=~p4~&custom=11=~site-id~",
+        "videoClickUrl": "https://goldapple.ru/brands/topicrem/bestsellery?utm_source=solta&utm_medium=cpm&utm_campaign=sl_mayoly_topicrem_olv_video_interests-keys-uh_8_2026_rf&utm_content=w25-45_04270-0004&utm_term=~site-id~&erid=2VfnxvcpQbn&from=&adrclid=D3PKXSzJB2a7fGher-nU2MTiDO7eQ3W9Qomf5QzgvMV-uD8q5S2uLZys_DZo3wM6gp1agR0Q-KXvidAd5uWo",
         "autoplayDelayMs": 0,
         "showPlayControl": false,
         "showSoundControl": false
@@ -684,7 +684,7 @@
         else playVideo(_videoEl);
       }
       if (_carouselGoTo && _carouselGoTo._restart) _carouselGoTo._restart();
-      firePixel(CONFIG.settings.impressionTracker);
+      // Impression tracked via VAST <Impression>
       fireTracking("impression");
       bus.emit("AdImpression");
       bus.emit("AdStarted");
