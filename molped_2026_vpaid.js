@@ -9,9 +9,9 @@
   "adWidth": 1280,
   "adHeight": 720,
   "settings": {
-    "clickThroughUrl": "https://ads.x5media.ru/uplink/c/fiveapp/dba2c1da-b78e-4c72-9d3c-59f6a3419ed9?utm_source=solta_shop_olv_14&utm_medium=cpm&utm_campaign=molped_glam_oct_dec_2026",
+    "clickThroughUrl": "https://5ka.ru/collections/special/dba2c1da-b78e-4c72-9d3c-59f6a3419ed9/?utm_campaign=molped_glam_oct_dec_2026&utm_medium=cpm&utm_source=solta_shop_olv_14",
     "adDuration": 14,
-    "impressionTracker": "https://www.tns-counter.ru/V13a****bbdo_ad/ru/UTF-8/tmsec=bbdo_cid1312080-posid3753539/",
+    "impressionTracker": "",
     "clickTracker": "https://www.tns-counter.ru/V13a****bbdo_ad/ru/UTF-8/tmsec=bbdo_cid1312080-posid3753539/",
     "trackingTemplate": "",
     "errorTracker": "https://www.tns-counter.ru/V13a****bbdo_ad/ru/UTF-8/tmsec=bbdo_cid1312080-posid3753539/"
@@ -46,11 +46,11 @@
           ""
         ],
         "clickUrls": [
-          "https://ads.x5media.ru/uplink/c/fiveapp/dba2c1da-b78e-4c72-9d3c-59f6a3419ed9?utm_source=solta_shop_olv_14&utm_medium=cpm&utm_campaign=molped_glam_oct_dec_2026",
-          "https://ads.x5media.ru/uplink/c/fiveapp/dba2c1da-b78e-4c72-9d3c-59f6a3419ed9?utm_source=solta_shop_olv_14&utm_medium=cpm&utm_campaign=molped_glam_oct_dec_2026",
-          "https://ads.x5media.ru/uplink/c/fiveapp/dba2c1da-b78e-4c72-9d3c-59f6a3419ed9?utm_source=solta_shop_olv_14&utm_medium=cpm&utm_campaign=molped_glam_oct_dec_2026",
-          "https://ads.x5media.ru/uplink/c/fiveapp/dba2c1da-b78e-4c72-9d3c-59f6a3419ed9?utm_source=solta_shop_olv_14&utm_medium=cpm&utm_campaign=molped_glam_oct_dec_2026",
-          "https://ads.x5media.ru/uplink/c/fiveapp/dba2c1da-b78e-4c72-9d3c-59f6a3419ed9?utm_source=solta_shop_olv_14&utm_medium=cpm&utm_campaign=molped_glam_oct_dec_2026"
+          "https://5ka.ru/collections/special/dba2c1da-b78e-4c72-9d3c-59f6a3419ed9/?utm_campaign=molped_glam_oct_dec_2026&utm_medium=cpm&utm_source=solta_shop_olv_14",
+          "https://5ka.ru/collections/special/dba2c1da-b78e-4c72-9d3c-59f6a3419ed9/?utm_campaign=molped_glam_oct_dec_2026&utm_medium=cpm&utm_source=solta_shop_olv_14",
+          "https://5ka.ru/collections/special/dba2c1da-b78e-4c72-9d3c-59f6a3419ed9/?utm_campaign=molped_glam_oct_dec_2026&utm_medium=cpm&utm_source=solta_shop_olv_14",
+          "https://5ka.ru/collections/special/dba2c1da-b78e-4c72-9d3c-59f6a3419ed9/?utm_campaign=molped_glam_oct_dec_2026&utm_medium=cpm&utm_source=solta_shop_olv_14",
+          "https://5ka.ru/collections/special/dba2c1da-b78e-4c72-9d3c-59f6a3419ed9/?utm_campaign=molped_glam_oct_dec_2026&utm_medium=cpm&utm_source=solta_shop_olv_14"
         ],
         "slideInterval": "3",
         "showDots": false,
@@ -71,7 +71,7 @@
       },
       "props": {
         "videoUrl": "https://serra772.github.io/VPAID-selector/Molped_Glam_Pad_14_sec_horiz.mp4",
-        "videoClickUrl": "https://ads.x5media.ru/uplink/c/fiveapp/dba2c1da-b78e-4c72-9d3c-59f6a3419ed9?utm_source=solta_shop_olv_14&utm_medium=cpm&utm_campaign=molped_glam_oct_dec_2026",
+        "videoClickUrl": "https://5ka.ru/collections/special/dba2c1da-b78e-4c72-9d3c-59f6a3419ed9/?utm_campaign=molped_glam_oct_dec_2026&utm_medium=cpm&utm_source=solta_shop_olv_14",
         "autoplayDelayMs": 0,
         "loop": false,
         "showPlayControl": false,
@@ -612,7 +612,6 @@
 
     startAd: function() {
       this._started = true;
-      firePixel(CONFIG.settings.impressionTracker);
       fireTracking("impression");
       bus.emit("AdImpression");
       bus.emit("AdStarted");
