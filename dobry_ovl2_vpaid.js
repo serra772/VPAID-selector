@@ -9,9 +9,9 @@
   "adWidth": 1280,
   "adHeight": 720,
   "settings": {
-    "clickThroughUrl": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1090750073&adid=1090750074&ord=~cache-buster~&LineID=$$~site-id~&erid=~token-ord~$$",
+    "clickThroughUrl": "https://dobrycola-promo.ru/?utm_medium=video_cpm&utm_source=solta&utm_campaign=dobry_ssd_11-26-11-26_xmas_phd&utm_term=interest_all-12-39&utm_content=frameroll_20s_equity&~site-id~&erid=~token-ord~",
     "adDuration": 10,
-    "impressionTracker": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=display&c=19&pli=1090750073&adid=1090750074&ord=~cache-buster~&pcp=$$~site-id~$$",
+    "impressionTracker": "",
     "clickTracker": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1090750073&adid=1090750074&ord=~cache-buster~&LineID=$$~site-id~&erid=~token-ord~$$",
     "trackingTemplate": "",
     "errorTracker": ""
@@ -32,7 +32,7 @@
       },
       "props": {
         "videoUrl": "https://serra772.github.io/VPAID-selector/Dobry_Losville_10s_261021_solta.mp4",
-        "videoClickUrl": "https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1090750073&adid=1090750074&ord=~cache-buster~&LineID=$$~site-id~&erid=~token-ord~$$",
+        "videoClickUrl": "https://dobrycola-promo.ru/?utm_medium=video_cpm&utm_source=solta&utm_campaign=dobry_ssd_11-26-11-26_xmas_phd&utm_term=interest_all-12-39&utm_content=frameroll_20s_equity&~site-id~&erid=~token-ord~",
         "autoplayDelayMs": 0,
         "showPlayControl": false,
         "showSoundControl": false
@@ -86,7 +86,7 @@
       root.onclick = function(e) {
         if (e.target === root || e.target === bg) {
           window.open(clickUrl, "_blank");
-          bus.emit("AdClickThru", clickUrl, null, true);
+          bus.emit("AdClickThru", clickUrl, null, false);
         }
       };
     }
@@ -127,7 +127,7 @@
     el.style.zIndex = "5";
     el.style.cursor = "pointer";
     var videoClickUrl = comp.props.videoClickUrl || CONFIG.settings.clickThroughUrl;
-    el.onclick = function(e) { e.stopPropagation(); if (videoClickUrl) window.open(videoClickUrl, "_blank"); bus.emit("AdClickThru", videoClickUrl, null, true); };
+    el.onclick = function(e) { e.stopPropagation(); if (videoClickUrl) window.open(videoClickUrl, "_blank"); bus.emit("AdClickThru", videoClickUrl, null, false); };
 
     // Use provided videoSlot or create inline
     var vid = videoSlot || document.createElement("video");
@@ -281,7 +281,7 @@
           var arr = comp.props.clickUrls || [];
           var u = arr[idx] || CONFIG.settings.clickThroughUrl;
           if (u) window.open(u, "_blank");
-          bus.emit("AdClickThru", u, null, true);
+          bus.emit("AdClickThru", u, null, false);
         };
       })(i);
       track.appendChild(slide);
@@ -491,7 +491,7 @@
     el.style.fontWeight = "600";
     el.style.borderRadius = comp.props.borderRadius || "8px";
     el.textContent = comp.props.bgImage ? "" : (comp.props.text || "Learn More");
-    el.onclick = function(e) { e.stopPropagation(); var u = comp.props.url || CONFIG.settings.clickThroughUrl; if(u) window.open(u,"_blank"); bus.emit("AdClickThru", u, null, true); };
+    el.onclick = function(e) { e.stopPropagation(); var u = comp.props.url || CONFIG.settings.clickThroughUrl; if(u) window.open(u,"_blank"); bus.emit("AdClickThru", u, null, false); };
   }
 
   function renderLegal(el, comp) {
@@ -506,7 +506,7 @@
   function triggerClick() {
     var url = CONFIG.settings.clickThroughUrl;
     if (url) window.open(url, "_blank");
-    bus.emit("AdClickThru", url, null, true);
+    bus.emit("AdClickThru", url, null, false);
   }
 
   /* ---- Tracking ---- */
@@ -534,9 +534,8 @@
     },
 
     startAd: function() {
+      if (this._started) return;
       this._started = true;
-      firePixel(CONFIG.settings.impressionTracker);
-      fireTracking("impression");
       bus.emit("AdImpression");
       bus.emit("AdStarted");
       bus.emit("AdVideoStart");

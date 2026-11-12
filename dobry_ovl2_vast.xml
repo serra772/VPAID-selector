@@ -13,7 +13,7 @@
             <Duration>00:00:10</Duration>
             <AdParameters xmlEncoded="0"/>
             <VideoClicks>
-              <ClickThrough><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1090750073&adid=1090750074&ord=~cache-buster~&LineID=$$~site-id~&erid=~token-ord~$$]]></ClickThrough>
+              <ClickThrough><![CDATA[https://dobrycola-promo.ru/?utm_medium=video_cpm&utm_source=solta&utm_campaign=dobry_ssd_11-26-11-26_xmas_phd&utm_term=interest_all-12-39&utm_content=frameroll_20s_equity&~site-id~&erid=~token-ord~]]></ClickThrough>
               <ClickTracking><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1090750073&adid=1090750074&ord=~cache-buster~&LineID=$$~site-id~&erid=~token-ord~$$]]></ClickTracking>
             </VideoClicks>
             <MediaFiles>
