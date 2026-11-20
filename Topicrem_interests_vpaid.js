@@ -12,7 +12,7 @@
     "clickThroughUrl": "https://goldapple.ru/brands/topicrem/bestsellery?utm_source=solta&utm_medium=cpm&utm_campaign=sl_mayoly_topicrem_olv_video_interests-keys-uh_8_2026_rf&utm_content=w25-45_04270-0004&utm_term=~site-id~&erid=2VfnxvcpQbn&from=&adrclid=D3PKXSzJB2a7fGher-nU2MTiDO7eQ3W9Qomf5QzgvMV-uD8q5S2uLZys_DZo3wM6gp1agR0Q-KXvidAd5uWo",
     "adDuration": 11,
     "impressionTracker": "",
-    "clickTracker": "https://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=55&ad=844967&pid=4970881&bid=15080004&bn=15080004&exss=~client-bid-id~&erid=2VfnxvcpQbn&rnd=~cache-buster~&exs0=solta&exs1=~p2~&exs2=~line-item-id~&exs3=~p3~&exs4=~domain~&exs5=~ip~&exs6=~p4~&custom=11=~site-id~",
+    "clickTracker": "https://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=55&ad=844967&pid=4970881&bid=15080004&bn=15080004&exss=~mini-cache-buster~&erid=2VfnxvcpQbn&rnd=~cache-buster~&exs0=solta&exs1=~p2~&exs2=~line-item-id~&exs3=~p3~&exs4=~domain~&exs5=~ip~&exs6=~p4~&custom=11=~site-id~",
     "trackingTemplate": "",
     "errorTracker": ""
   },
