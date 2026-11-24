@@ -18,9 +18,7 @@
             </VideoClicks>
             <MediaFiles>
               <MediaFile delivery="progressive" width="16" height="9" apiFramework="VPAID" type="application/javascript">
-                <![CDATA[
-https://serra772.github.io/VPAID-selector/vpaid.js
-                ]]>
+                <![CDATA[https://serra772.github.io/VPAID-selector/Topicrem_ofd_vpaid.js]]>
               </MediaFile>
             </MediaFiles>
           </Linear>
