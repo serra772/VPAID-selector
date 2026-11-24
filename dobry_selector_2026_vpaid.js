@@ -1,7 +1,7 @@
 /*!
  * Dobry Selector — VPAID 2.0 (JavaScript)
- * Background with two halves: left -> 10s video, right -> 20s video.
- * Auto-start of the 10s video after 7s of inactivity.
+ * Background with two halves: left -> 20s video, right -> 10s video.
+ * Auto-start of the left (20s) video after 7s of inactivity.
  */
 (function (global) {
   'use strict';
@@ -9,11 +9,11 @@
   var DEFAULTS = {
     baseUrl: 'https://serra772.github.io/VPAID-selector/',
     background: 'Dobry_selector_1280_720.png',
-    videoLeft: 'Dobry_Losville_10s_261021_solta.mp4',
-    videoRight: 'Dobry_Losville_20s_261023_solta.mp4',
-    durationLeft: 10,
-    durationRight: 20,
-    autoplayDelay: 7,          // seconds of inactivity before auto-start of the left (10s) video
+    videoLeft: 'Dobry_Losville_20s_261023_solta.mp4',
+    videoRight: 'Dobry_Losville_10s_261021_solta.mp4',
+    durationLeft: 20,
+    durationRight: 10,
+    autoplayDelay: 7,          // seconds of inactivity before auto-start of the left (20s) video
     autoplaySide: 'left',
     frameWidth: 10,            // white frame thickness in px for a 1280x720 stage (scaled)
     clickThrough: 'https://dobrycola-promo.ru/?utm_medium=video_cpm&utm_source=solta&utm_campaign=dobry_ssd_12-26-12-26_xmas_phd&utm_term=interest_all-12-39&utm_content=selector_20s_equity-ncp&~site-id~&erid=~token-ord~'

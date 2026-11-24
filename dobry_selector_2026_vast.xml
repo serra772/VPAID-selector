@@ -8,8 +8,8 @@
       <Creatives>
         <Creative id="dobry_selector_xmas26" sequence="1">
           <Linear>
-            <Duration>00:00:17</Duration>
-            <AdParameters><![CDATA[{"baseUrl":"https://serra772.github.io/VPAID-selector/","background":"Dobry_selector_1280_720.png","videoLeft":"Dobry_Losville_10s_261021_solta.mp4","videoRight":"Dobry_Losville_20s_261023_solta.mp4","durationLeft":10,"durationRight":20,"autoplayDelay":7,"autoplaySide":"left","frameWidth":10,"clickThrough":"https://dobrycola-promo.ru/?utm_medium=video_cpm&utm_source=solta&utm_campaign=dobry_ssd_12-26-12-26_xmas_phd&utm_term=interest_all-12-39&utm_content=selector_20s_equity-ncp&~site-id~&erid=~token-ord~"}]]></AdParameters>
+            <Duration>00:00:27</Duration>
+            <AdParameters><![CDATA[{"baseUrl":"https://serra772.github.io/VPAID-selector/","background":"Dobry_selector_1280_720.png","videoLeft":"Dobry_Losville_20s_261023_solta.mp4","videoRight":"Dobry_Losville_10s_261021_solta.mp4","durationLeft":20,"durationRight":10,"autoplayDelay":7,"autoplaySide":"left","frameWidth":10,"clickThrough":"https://dobrycola-promo.ru/?utm_medium=video_cpm&utm_source=solta&utm_campaign=dobry_ssd_12-26-12-26_xmas_phd&utm_term=interest_all-12-39&utm_content=selector_20s_equity-ncp&~site-id~&erid=~token-ord~"}]]></AdParameters>
             <VideoClicks>
               <ClickThrough><![CDATA[https://dobrycola-promo.ru/?utm_medium=video_cpm&utm_source=solta&utm_campaign=dobry_ssd_12-26-12-26_xmas_phd&utm_term=interest_all-12-39&utm_content=selector_20s_equity-ncp&~site-id~&erid=~token-ord~]]></ClickThrough>
               <ClickTracking id="serving-sys"><![CDATA[https://bs.serving-sys.ru/Serving/adServer.bs?cn=trd&pli=1090750078&adid=1090750079&ord=~cache-buster~&LineID=$$~site-id~&erid=~token-ord~$$]]></ClickTracking>
