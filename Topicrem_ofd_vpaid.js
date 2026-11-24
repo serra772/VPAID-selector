@@ -12,7 +12,7 @@
     "clickThroughUrl": "https://goldapple.ru/brands/topicrem/bestsellery?utm_source=solta&utm_medium=cpm&utm_campaign=sl_mayoly_topicrem_olv_video_ofd-segments-uh_8_2026_rf&utm_content=w25-45_04270-0006&utm_term=~site-id~&erid=2Vfnxvx7Fi4&from=&adrclid=D3PKXSzJB2a7fGher-nU2MTiDO7eQ3W9Qomf5QzgvMV-uD8q5S2uLZys_DZo3wM6gp1agR0Q-KXvidAd5uWo",
     "adDuration": 11,
     "impressionTracker": "",
-    "clickTracker": "https://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=55&ad=844967&pid=4970882&bid=15080006&bn=15080006&exss=~mini-cache-buster~&erid=2Vfnxvx7Fi4&rnd=~cache-buster~&exs0=solta&exs1=~p2~&exs2=~line-item-id~&exs3=~p3~&exs4=~domain~&exs5=~ip~&exs6=~p4~&custom=11=~site-id~",
+    "clickTracker": "https://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=55&ad=844967&pid=4970882&bid=15080006&bn=15080006&exss=&erid=[erir_token]&rnd=[timestamp]",
     "trackingTemplate": "",
     "errorTracker": ""
   },
